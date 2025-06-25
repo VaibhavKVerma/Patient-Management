@@ -1,0 +1,9 @@
+<component name="CopyrightManager">
+  <settings>
+    <LanguageOptions name="JAVA">
+      <option name="fileTypeOverride" value="3" />
+      <option name="separateAfter" value="true" />
+      <option name="lenAfter" value="60" />
+    </LanguageOptions>
+  </settings>
+</component>
