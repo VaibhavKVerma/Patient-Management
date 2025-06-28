@@ -4,7 +4,7 @@ Content-Type: application/json
 
 {
   "name": "Vaibhav",
-  "email": "vaibhav@gmail.com",
+  "email": "vaibhav5@gmail.com",
   "address": "C-52 Ashok Puram",
   "registeredDate": "2001-10-01",
   "dateOfBirth": "2001-06-15"

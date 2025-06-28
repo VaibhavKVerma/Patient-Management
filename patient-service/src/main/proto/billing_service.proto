@@ -1,0 +1,25 @@
+// Version of proto
+syntax = "proto3";
+
+// Split service request and response into different files
+option java_multiple_files = true;
+
+// Code generation hits all the code in package "billing"
+option java_package = "billing";
+
+service BillingService {
+  rpc CreateBillingAccount (BillingRequest) returns (BillingResponse);
+}
+
+// Type of Object or DTO
+message BillingRequest {
+  string patientId = 1; // This 1 helps in serialization and deserialization this should be unique
+  string name = 2;
+  string email = 3;
+}
+
+message BillingResponse {
+  string accountId = 1;
+  string status = 2;
+}
+
